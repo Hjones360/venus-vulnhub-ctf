@@ -1,9 +1,9 @@
-# Venus VulnHub CTF Walkthrough 🌌
+# Venus VulnHub CTF Walkthrough 
 
-## 🎯 Objective
+## Objective
 Perform a full penetration test on the "Venus" VulnHub virtual machine using Kali Linux. The goal is to gain user access, escalate to root, and capture both flags.
 
-## 🛠️ Tools & Techniques
+## Tools & Techniques
 - Kali Linux
 - arp-scan
 - nmap
@@ -17,7 +17,7 @@ Perform a full penetration test on the "Venus" VulnHub virtual machine using Kal
 - linpeas
 - CVE-2021-4034 (PwnKit) Exploit
 
-## 🔍 Summary of Steps
+## Summary of Steps
 
 ### 1. Network Discovery
 Used `sudo arp-scan -l` to find active IPs. Target was identified at `10.0.2.15`.
@@ -98,14 +98,14 @@ cat /root/root_flag.txt
 # root_flag_2ffb8a7239d90b3d3db02a258d009c79
 ```
 
-## 🚩 Flags Captured
+## Flags Captured
 - **User flag:** e799a60032068b27b8ff212b57c200b0
 - **Root flag:** 2ffb8a7239d90b3d3db02a258d009c79
 
-## 🔗 References
+## References
 - https://download.vulnhub.com/theplanets/Venus.ova
 - https://github.com/berdav/CVE-2021-4034
 - https://gchq.github.io/CyberChef/
 
-## 📁 Full Walkthrough
+## Full Walkthrough
 See `docs/full-walkthrough.md` for detailed steps and commands.
